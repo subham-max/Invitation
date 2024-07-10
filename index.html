@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envelope Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Family and Friends,</strong>
+                        <p>
+                            With hearts full of joy and love, we are thrilled to invite you to our ring ceremony. Your presence will make our celebration even more special as we exchange rings and begin our journey together.<br>
+                            <br>
+                            Please join us for this joyous occasion and bless us with your good wishes.<br>
+                            <br>
+                            <i class="fas fa-calendar-alt"></i> Date: 31st July 2024<br>
+                            <i class="fas fa-clock"></i> Time: 7:00 PM<br>
+                            <i class="fas fa-map-marker-alt"></i> Venue: Kalayangram 5<br>
+                            <br>
+                            &nbsp With love,<br>
+                            &nbsp <strong>Subham & Pallabi</strong>
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img src="BackgroundImage.jpeg" alt="Image 1">
+                        
+                        
+                    </div>
+                </div> 
+                
+            </div>
+            <div class="heart"></div>
+            
+
+            
+        </div>
+        
+    </div>
+    
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    
+</body>
+</html>
